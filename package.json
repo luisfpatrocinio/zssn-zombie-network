@@ -1,12 +1,12 @@
 {
   "name": "zssn",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000z\u0000s\u0000s\u0000n\u0000-\u0000z\u0000o\u0000m\u0000b\u0000i\u0000e\u0000-\u0000n\u0000e\u0000t\u0000w\u0000o\u0000r\u0000k\u0000\r\u0000 \u0000",
+  "description": "Projeto",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "nodemon --watch src/ --exec ts-node src/index.ts -e ts"
   },
-  "author": "LuisF Patrocinio <patrocinioluisf@gmail.com>",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "readline-sync": "^1.4.10"
@@ -14,7 +14,8 @@
   "devDependencies": {
     "@types/node": "^20.10.4",
     "@types/readline-sync": "^1.4.8",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
-  },
-  "repository": "git@github.com:luisfpatrocinio/zssn-zombie-network.git"
+  }
 }
