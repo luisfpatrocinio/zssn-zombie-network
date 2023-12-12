@@ -50,7 +50,7 @@ export class App {
             } catch (error) {
                 console.log(error);
             }
-            
+
             enterToContinue();
         } while (!this.viewStack.isEmpty());
         
